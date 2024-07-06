@@ -34,3 +34,7 @@
     @apply text-[18px];
   }
 }
+
+.active {
+  @apply text-red-500;
+}
