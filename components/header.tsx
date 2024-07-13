@@ -50,9 +50,17 @@ const Header = () => {
         />
 
         {/* Desktop Nav  */}
-        <Nav containerStyles="text-white py-12 flex gap-4 hidden xl:flex" />
+        <Nav containerStyles="text-white py-12 flex gap-4 hidden xl:flex text-base uppercase font-medium" />
 
-        <div>
+        <div className="flex items-center gap-4">
+          <div className="text-white flex items-center gap-4">
+            <button className="hover:text-red-500 transition-all text-base uppercase font-medium">
+              Login
+            </button>
+            <button className="hover:text-red-500 transition-all text-base uppercase font-medium">
+              Register
+            </button>
+          </div>
           <button
             onClick={() => setOpenNav(!openNav)}
             className="text-white xl:hidden"

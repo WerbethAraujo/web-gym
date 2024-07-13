@@ -19,7 +19,7 @@ const Nav = ({ containerStyles }: { containerStyles: string }) => {
       {links.map((link, index) => {
         return (
           <ScrollLink
-            className="cursor-pointer hover:text-red-500 transition-all uppercase"
+            className="cursor-pointer hover:text-red-500 transition-all"
             key={index}
             offset={link.offset}
             to={link.target}
