@@ -32,7 +32,7 @@ const Header = () => {
       <div className="container max-auto h-full flex items-center justify-between">
         <Link href="">
           <Image
-            src={"/assets/assets/img/logo.png"}
+            src={"/assets/img/logo.png"}
             width={177}
             height={55}
             alt="logo"
