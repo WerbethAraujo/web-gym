@@ -24,7 +24,7 @@ const config: Config = {
     },
     backgroundImage: {
       hero: "url(/assets/img/hero/bg.png)",
-      membership: "url(/assets/img/menmbership/bg.png)",
+      membership: "url(/assets/img/membership/bg.jpg)",
     },
     extend: {
       colors: {
